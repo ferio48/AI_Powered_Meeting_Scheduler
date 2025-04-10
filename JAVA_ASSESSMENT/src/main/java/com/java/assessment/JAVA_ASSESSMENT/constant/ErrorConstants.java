@@ -1,0 +1,89 @@
+package com.java.assessment.JAVA_ASSESSMENT.constant;
+
+public class ErrorConstants {
+
+    private ErrorConstants() {}
+
+    public static final String ERROR_OCCURRED = "ERROR_OCCURRED";
+
+    public static final String ERROR_OCCURRED_DURING_OPERATION = "ERROR_OCCURRED_DURING_OPERATION";
+
+    public static final String USER_PRESENT_ERROR = "USER_PRESENT_ERROR";
+
+    public static final String USER_PRESENT_PHONE_NUMBER_ERROR = "USER_PRESENT_PHONE_NUMBER_ERROR";
+
+    public static final String USER_PRESENT_EMAIL_ADDRESS_ERROR = "USER_PRESENT_EMAIL_ADDRESS_ERROR";
+
+    public static final String FIELD_FORMAT_ERROR = "FIELD_FORMAT_ERROR";
+
+    public static final String FIELD_BLANK = "FIELD_BLANK";
+
+    public static final String CONFIRM_PASSWORD_BLANK = "CONFIRM_PASSWORD_BLANK";
+
+    public static final String FIELDS_NOT_EQUAL_ERROR = "FIELDS_NOT_EQUAL_ERROR";
+
+    public static final String AUTHENTICATION_ERROR = "AUTHENTICATION_ERROR";
+
+    public static final String USER_NOT_FOUND_ERROR_WITH_EMAIL_ADDRESS = "USER_NOT_FOUND_ERROR_WITH_EMAIL_ADDRESS";
+
+    public static final String USER_NOT_FOUND_ERROR_WITH_USERNAME = "USER_NOT_FOUND_ERROR_WITH_USERNAME";
+
+    public static final String USER_NOT_FOUND_ERROR_WITH_PHONE_NUMBER = "USER_NOT_FOUND_ERROR_WITH_PHONE_NUMBER";
+
+    public static final String USER_NOT_FOUND_ERROR_WITH_ID = "USER_NOT_FOUND_ERROR_WITH_ID";
+
+    public static final String OTP_GENERATION_FAILED_ERROR = "OTP_GENERATION_FAILED_ERROR";
+
+    public static final String OTP_VERIFICATION_FAILED_ERROR = "OTP_VERIFICATION_FAILED_ERROR";
+
+    public static final String USER_NOT_PRESENT_EMAIL_ADDRESS_ERROR = "USER_NOT_PRESENT_EMAIL_ADDRESS_ERROR";
+
+    public static final String EMAIL_SENDING_ERROR = "EMAIL_SENDING_ERROR";
+
+    public static final String SAME_FIELDS_ERROR = "SAME_FIELDS_ERROR";
+
+    public static final String SAME_FIELD_ERROR = "SAME_FIELD_ERROR";
+
+    public static final String DIFFERENT_FIELDS_ERROR = "DIFFERENT_FIELDS_ERROR";
+
+    public static final String DIFFERENT_FIELD_ERROR = "DIFFERENT_FIELD_ERROR";
+
+    public static final String INVALID_TOKEN = "INVALID_TOKEN";
+
+    public static final String WRONG_FORMAT = "WRONG_FORMAT";
+
+    public static final String OUT_OF_RANGE = "OUT_OF_RANGE";
+
+    public static final String VEHICLE_MODEL_NUMBER_ALREADY_EXISTS_ERROR = "VEHICLE_MODEL_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String REGISTRATION_NUMBER_ALREADY_EXISTS_ERROR = "REGISTRATION_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String VEHICLE_NOT_FOUND_WITH_ID = "VEHICLE_NOT_FOUND_WITH_ID";
+
+    public static final String COMPANY_NOT_FOUND_WITH_ID = "COMPANY_NOT_FOUND_WITH_ID";
+
+    public static final String POLICY_NUMBER_ALREADY_EXISTS_ERROR = "POLICY_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String INSURANCE_POLICY_TYPE_BY_ID_NOT_FOUND_ERROR = "INSURANCE_POLICY_TYPE_BY_ID_NOT_FOUND_ERROR";
+
+    public static final String COMPANY_BY_ID_NOT_FOUND_ERROR = "COMPANY_BY_ID_NOT_FOUND_ERROR";
+
+    public static final String CERTIFICATE_NUMBER_ALREADY_EXISTS_ERROR = "CERTIFICATE_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String DOCUMENT_NUMBER_ALREADY_EXISTS_ERROR = "DOCUMENT_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String CHASSIS_NUMBER_ALREADY_EXISTS_ERROR = "CHASSIS_NUMBER_ALREADY_EXISTS_ERROR";
+
+    public static final String EXPENSE_TYPE_BY_ID_NOT_FOUND_ERROR = "EXPENSE_TYPE_BY_ID_NOT_FOUND_ERROR";
+
+    public static final String FIELD_TYPE_CAST_ERROR = "FIELD_TYPE_CAST_ERROR";
+
+    public static final String PAYMENT_TYPE_DOES_NOT_EXIST_ERROR = "PAYMENT_TYPE_DOES_NOT_EXIST_ERROR";
+
+    public static final String FARMER_BY_ID_NOT_FOUND_ERROR = "FARMER_BY_ID_NOT_FOUND_ERROR";
+
+    public static final String EXPENSE_BY_ID_NOT_FOUND = "EXPENSE_BY_ID_NOT_FOUND";
+
+    public static final String OBJECT_IS_NULL_ERROR = "OBJECT_IS_NULL_ERROR";
+
+}
