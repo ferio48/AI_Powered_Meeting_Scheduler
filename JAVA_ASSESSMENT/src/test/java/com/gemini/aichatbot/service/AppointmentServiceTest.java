@@ -10,7 +10,6 @@ import com.gemini.aichatbot.repositories.MeetingInformationRepository;
 import com.gemini.aichatbot.security.model.AuthenticationDetails;
 import com.gemini.aichatbot.service.impl.AppointmentServiceImpl;
 import com.gemini.aichatbot.service.impl.GeminiClient;
-import com.gemini.aichatbot.util.LoggedInUserUtil;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
@@ -21,11 +20,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.sql.Time;
-import java.sql.Date;
 import java.util.List;
 
-class AppointmentServiceImplTest {
+class AppointmentServiceTest {
 
     @InjectMocks
     private AppointmentServiceImpl appointmentService;
