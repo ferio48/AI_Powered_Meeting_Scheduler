@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.java.assessment</groupId>
-	<artifactId>JAVA_ASSESSMENT</artifactId>
+	<artifactId>aichatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JAVA_ASSESSMENT</name>
+	<name>aichatbot</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
