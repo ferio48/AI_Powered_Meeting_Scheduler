@@ -38,7 +38,9 @@ public class SpringSecurityConfiguration {
             "/webjars/**",
             "/api/v1/phoneNumberVerification/**",
             "/api/v1/auth/loginPage",
-            "/oauth2/authorization/**"
+            "/oauth2/authorization/**",
+            "/api/qna/**",
+            "/meeting/**"
     };
 
     @Bean

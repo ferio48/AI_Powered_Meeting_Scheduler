@@ -7,8 +7,6 @@ public class Authority {
 
     private Authority() {}
 
-    public static final String USER = "hasAuthority('" + Role.USER.name() + "')";
-
     public static final String USER_CREATE = "hasAuthority('" + AppConstants.Role.USER_CREATE + "')";
 
     public static final String MANAGER_CREATE = "hasAuthority('" + AppConstants.Role.MANAGER_CREATE + "')";
