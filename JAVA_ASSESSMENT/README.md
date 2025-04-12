@@ -85,6 +85,16 @@ mvn spring-boot:run
 | POST   | `/meeting/schedule`     | Start or continue AI appointment    |
 
 
+
+### 📥 Example Request for `/meeting/schedule`
+
+```
+json
+  {
+    "text": "Raj sharma"
+  }
+```
+
 ## ⏰ Reminder Scheduler
 
 - Runs every minute using `@Scheduled(cron = "0 * * * * *")`
