@@ -91,7 +91,7 @@ mvn spring-boot:run
 ```
 json
   {
-    "text": "Raj sharma"
+    "text": "Example Text"
   }
 ```
 
